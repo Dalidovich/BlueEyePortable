@@ -1,0 +1,34 @@
+# Portable runtime: downloaded by Setup.bat, ~4.8 GB
+runtime/
+
+# Model weights: gated on Hugging Face, downloaded by Setup.bat
+model/*
+!model/.gitkeep
+
+# Local results, labels and UI settings (personal data)
+data/*
+!data/.gitkeep
+
+# Exports and logs
+output/*
+!output/.gitkeep
+!output/logs/
+output/logs/*
+!output/logs/.gitkeep
+
+# Test images
+input/*
+!input/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
